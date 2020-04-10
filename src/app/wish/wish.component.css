@@ -10,12 +10,34 @@ img { width: 100%; height: auto; }
     background-image: linear-gradient(-90deg,#766dff 0%, #88f3ff);
 }
 
-.my-card {
+.my-card-content {
     height: 80vh;
     width: 80vw;
     padding: 5%;
     border-radius: 30px;
     font-family: 'Alegreya', serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.my-card-congrats {
+    height: 80vh;
+    width: 80vw;
+    padding: 15%;
+    border-radius: 30px;
+    font-family: 'Alegreya', serif;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.something {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.something-else {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
 }
