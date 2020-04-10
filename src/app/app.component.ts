@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tehreem-baji-wish';
+
+  showMain: boolean = false;
+
+  handleAuthenticated(event) {
+    this.showMain = true
+  }
+
 }

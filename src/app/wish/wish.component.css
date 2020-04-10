@@ -1,0 +1,21 @@
+img { width: 100%; height: auto; }
+
+.sec {
+    height: 100vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+.background {
+    background-image: linear-gradient(-90deg,#766dff 0%, #88f3ff);
+}
+
+.my-card {
+    height: 80vh;
+    width: 80vw;
+    padding: 5%;
+    border-radius: 30px;
+    font-family: 'Alegreya', serif;
+    font-weight: normal;
+    font-size: 50px;
+}
